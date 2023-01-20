@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body,html {
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/best-background-for-website-02-920x518.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    
+    height: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(214, 233, 182);
+    margin-left: 10px;
+    vertical-align:bottom;
+}
+
+
+.navbar ul {
+    float: right;
+    list-style-type: none;
+}
+
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 50px;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 5px
+}
+.navbar ul li a.active {
+    color: orange;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+    
+}
+#checkbtn{
+    float: right;
+    color:white;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 5px;
+    display: none;
+}
+#check{
+    display:none;
+}
+
+#site {
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+#log {
+    float: left;
+}
+#check:checked~ul{
+    left: 0;
+}
+@media(max-width:895px){
+    #checkbtn{
+        display: block;
+    }
+    .navbar ul{
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        position: fixed;
+        top: 50px;
+        left:-100%;
+        transition: 0.5s;
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+.register {
+    color: orange;
+    background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
+   
+    width: 100%;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#Registration {
+    padding-left: 36px;
+    padding-bottom: 60px;
+
+}
+
+#name {
+    padding-top: 4px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    margin-top: 6px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+#submit {
+    color: white;
+    background-color: chocolate;
+    font-size: 20;
+    float: right;
+    margin-right: 20px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
