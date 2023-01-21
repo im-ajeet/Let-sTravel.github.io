@@ -121,6 +121,8 @@ h2 {
 }
 
 #name {
+    background-color: rgb(137, 157, 167);
+    color: black;
     padding-top: 4px;
     border-top-style: solid;
     border-top-width: 2px;
